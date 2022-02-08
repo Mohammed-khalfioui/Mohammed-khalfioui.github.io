@@ -4,6 +4,23 @@ body{
     margin: auto;
     padding: 0;
     width: 80%;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover{
+    color: #5af1a4;
+}
+/*button{
+    cursor: pointer;
+    font-size: 12px;
+    width: 90px;
+}*/
+button:hover{
+    background-color: #a9ffd3;
 }
 header{
     background: url(images/haeder.jpg);
@@ -55,7 +72,8 @@ nav ul li a{
     color: white;
 }
 button{
-    padding: 10px 10px;
+    cursor: pointer;
+    padding: 15px 20px;
     background-color: #5af1a4;
     border-radius: 50px;
     border: none;
@@ -85,7 +103,7 @@ button{
 }
 .article3_p{
     /*border: royalblue solid;*/
-    width: 440px;
+    width: 480px;
 }
 .article4{
     /*width: 80%;*/
@@ -96,7 +114,7 @@ button{
     margin-top: 30px;
     background-color: white;
     /*border: 2px solid red;*/
-    width: 280px;
+    width: 291px;
     text-align: center;
     padding: 40px 40px;
     border-radius: 10px;
@@ -233,7 +251,7 @@ footer{
 footer div div div p{
     /*color: red;*/
 }
-footer p{
+footer .footer_p{
     color: rgb(187, 187, 187);
     text-align: center;
     padding-bottom: 15px;
@@ -241,4 +259,7 @@ footer p{
 footer p a{
     color: #5af1a4;
     text-decoration: none;
+}
+.span{
+    color: red;
 }
